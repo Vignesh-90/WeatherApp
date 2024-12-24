@@ -1,0 +1,202 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url('./Assests/Salt\ Flats.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    background-color: yellowgreen;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-image: url('./Assests/Black\ dark.jfif');
+    width: 350px;
+    padding: 20px;
+    background-color: #ddd9d9;
+    border-radius: 8px;
+    box-shadow: 0 0px 8px 
+}
+
+.input-container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    border: 2px solid powderblue;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.cityinput{
+    flex: 1;
+    height: 30px;
+    border: none;
+    padding: 10px;
+    background-color: rgba(155, 149, 149, 0);
+    color: white;
+}
+
+.search-icon{
+    padding: 10px;
+    height: 30px;
+    cursor: pointer;
+
+}
+
+.image{
+
+    height: 23px;
+    margin-top: 3px;
+}
+
+.sun-image{
+    text-align: center;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.sun-image img{
+    padding-top: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.temp,
+.location,
+.country {
+    margin-top: 5px;
+    font-size: 25px;
+    color: #8a6262;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.temp {
+    font-weight: 500;
+}
+
+.location {
+    color: rgb(83, 80, 80);
+    font-weight: 400;
+}
+
+.country {
+    font-size: 18px;
+    color: #888;
+}
+
+.cord {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.cord div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.cord div span {
+    font-size: 14px;
+}
+
+.cord div span :nth-child(2) {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.data-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.element {
+    text-align: center;
+}
+
+.icon {
+    width: 20px;
+}
+
+.iconn {
+    width: 100px;
+}
+
+.humidity-persent{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.wind-persent {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.text{
+    font-size: 12px;
+    color: #888;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 10px;
+    color: #635e5e;
+}
+
+.copyright span {
+    color: #918d8d;
+}
+
+
+
+.loading_message{
+    margin-top: 10px;
+    color: #888;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.error_mesage {
+    margin-top: 10px;
+    color: #888;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.city_not_found {
+    margin-top: 10px;
+    color: #888;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .container{
+      width: 100%;
+      max-width: 300px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      width: 100%;
+    }
+  }
+
+ 
